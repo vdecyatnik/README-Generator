@@ -7,69 +7,70 @@ const fs = require("fs");
 inquirer
         .prompt([
 
-{
-type: 'input',
-message: 'What is the title of your project?',
-name: 'title',
-},
+                {
+                        type: 'input',
+                        message: 'What is the title of your project?',
+                        name: 'title',
+                },
 
-{
-type: 'input',
-message: 'Please describe your project',
-name: 'description',
+                {
+                        type: 'input',
+                        message: 'Please describe your project',
+                        name: 'description',
 
-},
+                },
 
-{
-type: 'input',
-message: 'Enter usage information details',
-name: 'usage',
-},
+                {
+                        type: 'input',
+                        message: 'Enter usage information details',
+                        name: 'usage',
+                },
 
-{
-type: 'input',
-message: 'What are the contribution guidelines?',
-name: 'contribution',
+                {
+                        type: 'input',
+                        message: 'What are the contribution guidelines?',
+                        name: 'contribution',
 
-},
-{
-type: 'input',
-message: 'What are the test instructions for your program?',
-name: 'test',
+                },
+                {
+                        type: 'input',
+                        message: 'What are the test instructions for your program?',
+                        name: 'test',
 
-},
+                },
 
-{
+                {
 
-type: 'list',
-message: 'Pick a license',
-choices: ['Apache License 2.0', 'GNU General Public License v3.0', 'MIT License'],
-name: 'license',
+                        type: 'list',
+                        message: 'Pick a license',
+                        choices: ['Apache License 2.0', 'GNU General Public License v3.0', 'MIT License'],
+                        name: 'license',
 
-},
+                },
 
-{
+                {
 
-type: 'input',
-message: 'What is your github URL?',
-name: 'githubURL',
+                        type: 'input',
+                        message: 'What is your github URL?',
+                        name: 'githubURL',
 
 
-},
-{
-type: 'input',
-message: 'What is your email address?',
-name: 'email',
-}
+                },
+                {
+                        type: 'input',
+                        message: 'What is your email address?',
+                        name: 'email',
+                }
+
         ])
 
 
 
 
-        .then((response) => {
+.then((response) => {
 
 
-let markDownFile = 
+         let markDownFile =
 
 `# Title
 ${response.title}
@@ -114,7 +115,7 @@ ${response.githubURL}${response.email}
 
 
 
-`
+` })
 
 
 
@@ -124,31 +125,11 @@ ${response.githubURL}${response.email}
 
 
 
+// // function to write README file
+// function writeToFile(fileName, data) {
 
 
-
-
-
-
-        }
-
-
-
-
-
-
-
-
-
-
-
-
-
-// function to write README file
-function writeToFile(fileName, data) {
-
-
-}
+// }
 
 // function to initialize program
 // function init() {
@@ -169,4 +150,4 @@ function writeToFile(fileName, data) {
 // }
 
 // function call to initialize program
-init();
+

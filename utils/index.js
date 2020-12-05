@@ -102,7 +102,7 @@ ${response.installation}
 ${response.usage}
 
 ### License
-${response.license}
+This project is covered under ${response.license}.
  
 ### Contributors
 ${response.contribution}
@@ -111,7 +111,7 @@ ${response.contribution}
 ${response.test}
 
 ### Questions 
-${response.githubURL}${response.email}
+"http://github.com/${response.githubURL}"${response.githubURL}<a href = "mailto:${response.email}</a>${response.email}
 
 
 

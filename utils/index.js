@@ -19,6 +19,11 @@ inquirer
                         name: 'description',
 
                 },
+                {
+                        type:'input',
+                        message:'What are the installation instructions for your project?',
+                        name:'installation',
+                },
 
                 {
                         type: 'input',
@@ -76,7 +81,7 @@ inquirer
 ${response.title}
 
 
-## Table of Contents
+# Table of Contents
 
 - [Description](#Description)
 
@@ -92,26 +97,26 @@ ${response.title}
 
 - [Questions](#Questions)
 
-### Descripton
-${response.description}
+ ## Descripton
+ ${response.description}
 
-### Installation
-${response.installation}
+ ## Installation
+ ${response.installation}
 
-### Usage
-${response.usage}
+ ## Usage
+ ${response.usage}
 
-### License
-This project is covered under ${response.license}.
+ ## License
+ This project is covered under ${response.license}.
  
-### Contributors
-${response.contribution}
+ ## Contributors
+ ${response.contribution}
 
-### Tests
-${response.test}
+ ## Tests
+ ${response.test}
 
-### Questions 
-"http://github.com/${response.githubURL}"${response.githubURL}<a href = "mailto:${response.email}</a>${response.email}
+ ## Questions 
+ If you have any questions please contact me through my git hub profile.http://github.com/${response.githubURL} or my email ${response.email}
 
 
 

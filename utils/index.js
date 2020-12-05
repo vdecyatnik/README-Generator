@@ -115,7 +115,18 @@ ${response.test}
 
 
 
-` })
+` 
+        fs.writeFile('./README.md', markDownFile, function (err,data){
+                if(err) throw err;
+                console.log(data);
+        })
+
+
+
+
+
+
+})
 
 
 

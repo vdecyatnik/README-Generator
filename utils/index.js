@@ -48,7 +48,7 @@ inquirer
 
                         type: 'list',
                         message: 'Pick a license',
-                        choices: ['Apache License 2.0', 'GNU General Public License v3.0', 'MIT License'],
+                        choices: ['Apache_License_2.0', 'GNU_General_Public_License_v3.0', 'MIT_License', 'BSD_2-Clause "Simplified_License', 'None'],
                         name: 'license',
 
                 },
@@ -80,6 +80,7 @@ inquirer
 `# Title
 ${response.title}
 
+![badge](https://img.shields.io/badge/license-${response.license}-brightgreen)
 
 # Table of Contents
 

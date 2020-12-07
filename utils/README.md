@@ -1,6 +1,7 @@
 # Title
-Poodles
+asd
 
+![badge](https://img.shields.io/badge/license-GNU_General_Public_License_v3.0-brightgreen)
 
 # Table of Contents
 
@@ -19,25 +20,25 @@ Poodles
 - [Questions](#Questions)
 
  ## Descripton
- poodles
+ asd
 
  ## Installation
- alskjdklasd
+ asd
 
  ## Usage
- alksjdklsajdklaskdjasd
+ asd
 
  ## License
- This project is covered under Apache License 2.0.
+ This project is covered under GNU_General_Public_License_v3.0.
  
  ## Contributors
- alksjdlkasdklaskldklasdklasjdas
+ asd
 
  ## Tests
- aljsdklajskldjasdlkasjdk
+ asd
 
  ## Questions 
- If you have any questions please contact me through my git hub profile.http://github.com/ or my email vdecyatnik@gmail.com
+ If you have any questions please contact me through my git hub profile.http://github.com/asd or my email asd
 
 
 

@@ -32,3 +32,8 @@ Questions used to prompt the user with the different inputs and choices.
 
 Method used to write the README.md file. 
 ![image](https://user-images.githubusercontent.com/72056832/101232251-73f58880-3665-11eb-91c9-a344c47c8cd3.png)
+
+# Links
+
+Click to see the video of the README Generator working.
+[README Video Link](https://drive.google.com/file/d/13-j14W4SoioStNmCpwtiBbhIGBvkbdGH/preview)

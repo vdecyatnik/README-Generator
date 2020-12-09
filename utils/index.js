@@ -108,7 +108,7 @@ ${response.title}
  ${response.usage}
 
  ## License
- This project is covered under ${response.license}.
+ This project is covered under ![badge](https://img.shields.io/badge/license-${response.license}-brightgreen).
  
  ## Contributors
  ${response.contribution}
@@ -117,7 +117,7 @@ ${response.title}
  ${response.test}
 
  ## Questions 
- If you have any questions please contact me through my git hub profile.http://github.com/${response.githubURL} or my email ${response.email}
+ If you have any questions please contact me through my git hub profile http://github.com/${response.githubURL} or my email ${response.email}
 
 
 

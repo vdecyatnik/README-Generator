@@ -48,7 +48,7 @@ inquirer
 
                         type: 'list',
                         message: 'Pick a license',
-                        choices: ['Apache_License_2.0', 'GNU_General_Public_License_v3.0', 'MIT_License', 'BSD_2-Clause "Simplified_License', 'None'],
+                        choices: ['Apache_License_2.0', 'GNU_General_Public_License_v3.0', 'MIT_License',  'None'],
                         name: 'license',
 
                 },

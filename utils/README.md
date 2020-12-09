@@ -1,7 +1,7 @@
 # Title
 asd
 
-![badge](https://img.shields.io/badge/license-GNU_General_Public_License_v3.0-brightgreen)
+![badge](https://img.shields.io/badge/license-MIT_License-brightgreen)
 
 # Table of Contents
 
@@ -29,16 +29,16 @@ asd
  asd
 
  ## License
- This project is covered under GNU_General_Public_License_v3.0.
+ This project is covered under MIT_License.
  
  ## Contributors
- asd
+ sad
 
  ## Tests
- asd
+ sad
 
  ## Questions 
- If you have any questions please contact me through my git hub profile.http://github.com/asd or my email asd
+ If you have any questions please contact me through my git hub profile.http://github.com/asd or my email as
 
 
 

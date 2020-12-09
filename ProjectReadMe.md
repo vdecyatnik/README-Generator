@@ -19,11 +19,16 @@ Javasciprt
 
 Inquirer (NPM)
 
-## Images
+# Images
 
+Included Inquirer to prompt the user questions to fill out the README generator accordingly.
 
 ![image](https://user-images.githubusercontent.com/72056832/101232246-68a25d00-3665-11eb-98f2-a775202f000d.png)
 
+Questions used to prompt the user with the different inputs and choices.
+
 ![image](https://user-images.githubusercontent.com/72056832/101232229-47417100-3665-11eb-948a-d83449b75164.png)
 
+
+Method used to write the README.md file. 
 ![image](https://user-images.githubusercontent.com/72056832/101232251-73f58880-3665-11eb-91c9-a344c47c8cd3.png)
